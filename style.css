@@ -1,0 +1,40 @@
+/*Name: Sushma Telagamsetti
+ID: c0901939*/
+/*Styling for body*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/*Styling for container*/
+.container {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+/*Styling for canvas*/
+#canvas {
+    border: 2px solid #000;
+    margin-bottom: 20px;
+}
+#toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn {
+    padding: 8px 16px;
+    margin-right: 10px;
+}
+/*Styling for slider*/
+.slider-container {
+    display: flex;
+    align-items: center;
+}
+.slider-container input[type="range"] {
+    margin-right: 10px;
+}

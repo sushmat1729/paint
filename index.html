@@ -1,0 +1,36 @@
+<!----Name: Sushma Telagamsetti
+ID: C0901939-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Canvas Drawing</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="container">
+    <h1>Let's Paint</h1>
+    <canvas id="canvas" width="800" height="500"></canvas>
+    <div id="toolbar">
+        <div>
+            <button class="btn" onclick="changeColor('blue')"><i class="fas fa-paint-brush" style="color:blue;"></i></button>
+            <button class="btn" onclick="changeColor('black')"><i class="fas fa-paint-brush" style="color:black;"></i></button>
+            <button class="btn" onclick="changeColor('red')"><i class="fas fa-paint-brush" style="color:red;"></i></button>
+            <button class="btn" onclick="changeColor('yellow')"><i class="fas fa-paint-brush" style="color:yellow;"></i></button>
+            <button class="btn" onclick="useEraser()"><i class="fas fa-eraser"></i></button>
+            <button class="btn" onclick="clearCanvas()"><i class="far fa-file"></i> Clear</button>
+        </div>
+        <div class="slider-container">
+            <input type="range" min="2" max="15" value="2" id="thicknessSlider">
+            <label for="thicknessSlider">Thickness</label>
+        </div>
+    </div>
+</div>
+
+<script src="scripts.js"></script>
+
+</body>
+</html>
